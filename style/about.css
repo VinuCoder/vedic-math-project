@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.intro{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    border: 4px solid black;
+    border-radius: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 17px;
+    background: linear-gradient(to top, rgb(255 249 160), transparent);
+    font-family: 'Poppins', sans-serif;
+}
+.i_left{
+    width: 70%;
+}
+.i_left h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.i_left h3{
+    margin-top: 20px;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+.i_left p{
+    margin-top: 20px;
+    padding-left: 15px;
+    font-size: 1.1rem;
+}
+.i_right{
+    width: 30%;
+}
+.i_right img{
+    width: 230px;
+    height: 228px;
+    padding-left: 60px;
+    margin-top: 28px;
+}
+
+.sutras{
+    width: 85%;
+    margin: auto;
+    border: 4px solid black;
+    border-radius: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 17px;
+    background: linear-gradient(to top,rgb(187, 184, 184), transparent);
+    font-family: 'Poppins', sans-serif;
+}
+.sutras h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.sutras p{
+    margin-top: 20px;
+    padding-left: 15px;
+    font-size: 1.1rem;
+}
+table{
+    margin: auto;
+    margin-top: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; 
+    background-color: rgb(253, 243, 187);
+    text-align: center;
+    padding: 7px;
+}
+
+.benefits{
+    width: 85%;
+    margin: auto;
+    border: 4px solid black;
+    border-radius: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 17px;
+    background: linear-gradient(to top,rgb(187, 184, 184), transparent);
+    font-family: 'Poppins', sans-serif;
+}
+.benefits h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.benefits p{
+    margin-top: 20px;
+    padding-left: 15px;
+    font-size: 1.1rem;
+}
+.benefits ul{
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.benefits ul li{
+    list-style: square;
+    font-size: 1.1rem;
+}
+

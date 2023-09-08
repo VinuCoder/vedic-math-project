@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: linear-gradient(to right, rgb(204, 202, 202), transparent);
+    /* height: 50px; */
+    padding: 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.nav_list{
+    display: flex;
+    padding: 4px;
+}
+.nav_list li{
+    list-style: none;
+    margin-inline: 12px;
+    margin-top: 7px;
+}
+.nav_list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 6px;
+    background-color: azure;
+}
+.nav_list li a:hover{
+    color: gold;
+    background-color: grey;
+    border: 3px solid black;
+}
+
+.container{
+    display: flex;
+    max-width: 97%;
+    margin: auto;
+    /* height: 400px; */
+    font-family: 'Poppins', sans-serif;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: 12px;
+    background: linear-gradient(to left, rgb(255 249 160), transparent);
+}
+.right{
+    width: 60%;
+    /* background-color: blueviolet; */
+    padding-top: 100px;
+    padding-inline: 20px;
+}
+.right h1{
+    font-size: 2.3rem;
+    margin-bottom: 15px;
+}
+.right p{
+    font-size: 1rem;
+}
+.left{
+    width: 40%;
+    /* background-color: red; */
+}
+.left img{
+    width: 400px;
+    height: 400px;
+}
+.main{
+    /* display: flex; */
+    width: 97%;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    /* text-align: center; */
+    border: 5px solid black;
+    border-radius: 20px;
+    /* height: 300px; */
+    padding-top: 30px;
+    background: linear-gradient(to right,rgb(209 207 207),white);
+    font-family: 'Mukta', sans-serif;
+}
+.m_left{
+    width: 80%;
+    margin: auto;
+    padding-left: 20px;
+    /* height: 200px; */
+}
+.m_left p{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.m_left h1{
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.footer{
+    height: 20px;
+    background-color: black;
+    color: gold;
+    font-size: 1rem;
+    text-align: center;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.burger{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    display: none;
+}
+.line{
+    width: 33px;
+    margin: 3px 3px;
+    background-color: black;
+    height: 3px;
+}
