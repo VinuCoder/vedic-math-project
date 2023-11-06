@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.tricks{
+    width: 85%;
+    margin: auto;
+    border: 4px solid black;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 12px;
+    padding: 17px;
+    background-color: rgb(238, 236, 200);
+    font-family: 'Poppins', sans-serif;
+}
+.tricks h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.tricks p{
+    margin-top: 20px;
+    padding-left: 15px;
+    font-size: 1.1rem;
+}
+.tricks h3{
+    margin-top: 12px;
+}
+.tricks video{
+    margin-left: 311px;
+    margin-bottom: 18px;
+}

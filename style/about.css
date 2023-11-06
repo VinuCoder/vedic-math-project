@@ -103,4 +103,31 @@ table, th, td {
     list-style: square;
     font-size: 1.1rem;
 }
+.tricks{
+    width: 85%;
+    margin: auto;
+    border: 4px solid black;
+    border-radius: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 17px;
+    background: linear-gradient(to top,rgb(187, 184, 184), rgb(243, 243, 168),transparent);
+    font-family: 'Poppins', sans-serif;
+}
+.tricks h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.tricks p{
+    margin-top: 20px;
+    padding-left: 15px;
+    font-size: 1.1rem;
+}
+.tricks h3{
+    margin-top: 12px;
+}
+.tricks video{
+    margin-left: 200px;
+}
+
 
